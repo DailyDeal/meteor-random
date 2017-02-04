@@ -209,9 +209,9 @@ if (nodeCrypto ||
 else
   module.exports = Random = new RandomGenerator([new Date(), height, width, agent, Math.random()]);
 
-Random.createWithSeeds = function () {
-  if (arguments.length === 0) {
-    throw new Error('No seeds were provided');
-  }
-  return new RandomGenerator(arguments);
-};
+// Random.createWithSeeds = function () {
+//   if (arguments.length === 0) {
+//     throw new Error('No seeds were provided');
+//   }
+//   return new RandomGenerator(arguments);
+// };
