@@ -9,7 +9,6 @@
   "author": "Trever Faden",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "crypto": "0.0.3"
   },
   "devDependencies": {},
   "repository": {
